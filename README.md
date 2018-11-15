@@ -13,3 +13,7 @@ Right now we'll focus purely on some HTML for what our ToDo application should l
 By the end of this tutorial we should have a web page that looks similar to the image below.
 
 ![HTML Version of ToDo](https://storage.googleapis.com/tech-returners-course/002-html-todoapp.png "HTML Version of ToDo")
+
+Head on over to the [tasks to get started](./docs/TASKS.md).
+
+
