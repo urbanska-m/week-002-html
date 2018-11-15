@@ -6,4 +6,4 @@ Firstly we probably want to give our page a title. The title is shown on the bro
 
 For example the BBC website has a page title of **BBC - Home** as shown below.
 
-![BBC Title](https://storage.googleapis.com/tech-returners-course/002-html-title.png "Examle of BBC web page title")
+![BBC Title](https://storage.googleapis.com/tech-returners-course/002-html-title.png "Example of BBC web page title")
