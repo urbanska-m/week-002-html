@@ -82,8 +82,6 @@ HTML5 Facts and Myths - https://www.smashingmagazine.com/2010/09/html5-the-facts
 
 ## 2) Identify and name sections from your webpage
 
-Create a new directory in your repository called 'docs'.
-
 Draw a diagram that identifies the core sections of your web page. Later on in the course we'll be using this to split up your code base into [single responsibility](https://en.wikipedia.org/wiki/Single_responsibility_principle) components and it will also be useful for the CSS session next week.
 
 It will be similar to the **HTML Page Structure** section on this page.
@@ -96,9 +94,11 @@ The examples below show how the sections might be identified.
 
 with sections identified goes to this:
 
-Once you have created your image. Add it to your source code and COMMIT it. Then PUSH it up to origin as per previous tasks.
-
 ![Diagram of webpage with sections](https://storage.googleapis.com/tech-returners-course/002-html-sections-part2.png)
+
+The image should be placed in the 'docs' directory.
+
+Once you have created your image. Add it to your source code and COMMIT it. Then PUSH it up to origin as per previous tasks.
 
 ## 3) Make a list of dynamic parts of the application.
 
