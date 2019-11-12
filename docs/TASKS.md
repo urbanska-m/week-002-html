@@ -8,13 +8,13 @@ Make sure you COMMIT to Git version control after completing each task.
 
 Using GitHub fork the Tech Returners repo.
 
-https://github.com/techreturners/004-html
+https://github.com/techreturners/002-html
 
 ## 2) Clone the repository to your machine
 
 Replacing USERNAME with your username.
 
-```git clone git@github.com:USERNAME/004-html.git```
+```git clone https://github.com/USERNAME/week-002-html.git```
 
 You should now see the starter index.html file.
 
