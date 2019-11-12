@@ -6,9 +6,7 @@ Make sure you COMMIT to Git version control after completing each task.
 
 ## 1) Fork the Tech Returners HTML repo.
 
-Using GitHub fork the Tech Returners repo.
-
-https://github.com/techreturners/002-html
+Using GitHub fork this repo (github.com/techreturners/week-002-html/)
 
 ## 2) Clone the repository to your machine
 
