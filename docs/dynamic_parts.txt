@@ -1,6 +1,6 @@
 Dynamic Parts of To Do List
 
-- Input field
+- Input field - should set a minimum and maximum number of characters
 - Number of tasks
 - Tick boxes
 - Task section - completed tasks moving to bottom of list
