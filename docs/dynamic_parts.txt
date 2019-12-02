@@ -1,0 +1,7 @@
+Dynamic Parts of To Do List
+
+- Input field
+- Number of tasks
+- Tick boxes
+- Task section - completed tasks moving to bottom of list
+- Editing/deleting/pinning tasks
