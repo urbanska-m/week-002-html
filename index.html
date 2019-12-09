@@ -1,19 +1,29 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link href="style.css" rel="stylesheet" type="text/css" />
         <title>Get It Done</title>
     </head>
 
     <body>
+
+      <div class="title">  
         <h1>Get It Done</h1>
+      </div>
+
+      <div class="input">
         <form>
             <input type="text" name="newTask" placeholder="New task..." minlength="1" maxlength="100">
             <input type="submit" value="Add">
         </form>
+      </div>
     
+      <div class="taskCounter">  
         <p>To do: 3 <br>
         Done: 1</p>
-
+      </div>
+    
+      <div class="tasks">
     <table>
         <tr>
             <td><input type="checkbox"></td>
@@ -39,8 +49,8 @@
             <td><input type="button" value="Edit"></td>
             <td><input type="button" value="Delete"></td>
         </tr>
-
     </table>
-   
+      </div>
+        
     </body>
 </html>
