@@ -50,23 +50,31 @@ body {
     }
     
     .taskCounter {
-     
-      width: 20%;
-      margin: auto;
-      font-size: 18px;
+      width: 30%;
+      margin: 20px auto;
+      font-family: Arial;
+      font-size: 20px;
+      font-weight: bold;
+      color: white;
       text-align: center;
+      text-transform: uppercase;
+      border-top: solid;
+      border-bottom: solid
+      
     }
     
     .tasks {
-     
       width: 75%;
-      margin-left: 10%;
+      margin-left: 20%;
       margin-top: 35px;
+      font-family: Arial;
       font-size: 20px;
+      color: slategray;
     }
     
     table, tr, td {
-      border: solid;
+      border: none;
+      height: 28px;
     }
     
     .checkboxes {
