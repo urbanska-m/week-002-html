@@ -1,56 +1,79 @@
-.title {
-    background-color: cadetblue;
-    border-style: solid;
-    width: 300px;
-    margin: 60px auto;
-    padding: 5px;
-    text-align: center;
-  }
-  
-  .input {
-    background-color: paleturquoise;
-    text-align: center;
-    margin: auto;
-    width: 60%;
-  }
-  
-  input[type=text] {
-    margin-left: 30px;
-    padding: 8px 10px;
-    width: 300px;
-    font-size: 20px;
-  }
-  
-  input[type=submit] {
-    margin-left: 15px;
-    padding: 10px;
-    font-size: 15px;
-  }
-  
-  .taskCounter {
-    background-color: aquamarine;
-    width: 20%;
-    margin: auto;
-    font-size: 18px;
-    text-align: center;
-  }
-  
-  .tasks {
-    background-color: skyblue;
-    width: 75%;
-    margin-left: 10%;
-    margin-top: 35px;
-    font-size: 20px;
-  }
-  
-  table, tr, td {
-    border: solid;
-  }
-  
-  .checkboxes {
-    padding-right: 15px;
-  }
-  
-  .taskField {
-    padding-right: 30px;
-  }  
+body {
+    background-color: #e99ba6;
+    background-image: linear-gradient(#e99ba6 0%, #ffd9de 74%);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
+    
+    .title {
+     
+      width: 150px;
+      height: 150px;
+      margin: 60px auto;
+      padding: 5px;
+      border: 8px solid white;
+      text-transform: uppercase;
+      text-align: center;
+      word-spacing: 100px;
+      font-family: Arial;
+      color: white;
+    }
+    
+    .input {
+      text-align: center;
+      margin: auto;
+      width: 60%;
+    }
+    
+    input[type=text] {
+      margin-left: 30px;
+      padding: 8px 10px;
+      width: 300px;
+      font-size: 20px;
+      border: 1px solid #C2C2C2;
+        border-radius: 0px;
+    }
+    
+    input[type=text]:focus {
+      outline: none;
+      border: 1px solid #555;
+    }
+    
+    input[type=submit] {
+      margin-left: 15px;
+      margin-bottom: 8px;
+      padding: 8px;
+      font-size: 15px;
+      background: none;
+      border: 3px solid white;
+      color: white;
+    }
+    
+    .taskCounter {
+     
+      width: 20%;
+      margin: auto;
+      font-size: 18px;
+      text-align: center;
+    }
+    
+    .tasks {
+     
+      width: 75%;
+      margin-left: 10%;
+      margin-top: 35px;
+      font-size: 20px;
+    }
+    
+    table, tr, td {
+      border: solid;
+    }
+    
+    .checkboxes {
+      padding-right: 15px;
+    }
+    
+    .taskField {
+      padding-right: 30px;
+    }
+    
