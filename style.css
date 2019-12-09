@@ -1,15 +1,28 @@
 .title {
     background-color: cadetblue;
+    border-style: solid;
+    width: 300px;
+    margin: 60px auto;
+    padding: 5px;
+    text-align: center;
   }
   
   .input {
     background-color: paleturquoise;
+    text-align: center;
+    margin: auto;
+    
   }
   
   .taskCounter {
     background-color: aquamarine;
+    text-align: center;
   }
   
   .tasks {
     background-color: skyblue;
+    margin-left: 50px;
+    margin-top: 35px;
   }
+  
+  
