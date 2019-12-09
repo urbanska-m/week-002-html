@@ -11,18 +11,46 @@
     background-color: paleturquoise;
     text-align: center;
     margin: auto;
-    
+    width: 60%;
+  }
+  
+  input[type=text] {
+    margin-left: 30px;
+    padding: 8px 10px;
+    width: 300px;
+    font-size: 20px;
+  }
+  
+  input[type=submit] {
+    margin-left: 15px;
+    padding: 10px;
+    font-size: 15px;
   }
   
   .taskCounter {
     background-color: aquamarine;
+    width: 20%;
+    margin: auto;
+    font-size: 18px;
     text-align: center;
   }
   
   .tasks {
     background-color: skyblue;
-    margin-left: 50px;
+    width: 75%;
+    margin-left: 10%;
     margin-top: 35px;
+    font-size: 20px;
   }
   
+  table, tr, td {
+    border: solid;
+  }
   
+  .checkboxes {
+    padding-right: 15px;
+  }
+  
+  .taskField {
+    padding-right: 30px;
+  }  
