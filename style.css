@@ -1,3 +1,8 @@
+ body {
+   background-image: url(backgrounds/foggy-trees-flipped.jpg);
+   background-size: cover;
+ }
+
 .sidebar {
   background: lightblue;
   float: left;
