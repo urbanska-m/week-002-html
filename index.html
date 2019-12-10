@@ -7,7 +7,6 @@
 
     <body>
       <div class="sidebar">
-      
       <div class="title">  
         <h1>Get It Done</h1>
       </div>
@@ -22,40 +21,18 @@
             <input type="text" name="newTask" placeholder="New task..." minlength="1" maxlength="100">
             <input type="submit" value="Add">
         </form>
-      </div>
-    
-     
+        </div>     
       </div>
         
    
       <main>
-      <div class="tasks">
-    <table>
-        <tr>
-            <td class="checkboxes"><input type="checkbox"></td>
-            <td class="taskField">Task 1</td>
-            <td><input type="button" value="Edit"></td>
-            <td><input type="button" value="Delete"></td>
-        </tr>
-        <tr>
-            <td class="checkboxes"><input type="checkbox"></td>
-            <td class="taskField">Task 2</td>
-            <td><input type="button" value="Edit"></td>
-            <td><input type="button" value="Delete"></td>
-        </tr>
-        <tr>
-            <td class="checkboxes"><input type="checkbox"></td>
-            <td class="taskField">Task 3</td>
-            <td><input type="button" value="Edit"></td>
-            <td><input type="button" value="Delete"></td>
-        </tr>
-        <tr>
-            <td class="checkboxes"><input type="checkbox" checked></td>
-            <td class="taskField"><s>Task 4</s></td>
-            <td><input type="button" value="Edit"></td>
-            <td><input type="button" value="Delete"></td>
-        </tr>
-    </table>
+          <div class="tasks">
+    <ul>
+      <li>Task 1 <input type="button" value="Edit"> <input type="button" value="Delete"></li>
+      <li>Task 2 <input type="button" value="Edit"> <input type="button" value="Delete"></li>
+      <li>Task 3 <input type="button" value="Edit"> <input type="button" value="Delete"></li>
+      <li class="checked">Task 4 <input type="button" value="Edit"> <input type="button" value="Delete"></li>
+        </ul>
       </div>
       </main>
         
