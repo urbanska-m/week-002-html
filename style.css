@@ -1,98 +1,105 @@
 body {
-    background-color: #e99ba6;
-    background-image: linear-gradient(#e99ba6 0%, #ffd9de 74%);
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-    }
-    
-    .title {
+  /* teal gradient     
+  background-color: #537895;
+ background-image: linear-gradient(#537895 0%, #09202f 74%); */
+   
+  /* dark turquoise gradient */
+   background-color: #04818f;
+ background-image: linear-gradient(#04818f 0%, #000015 74%);
+ 
+       background-repeat: no-repeat;
+       background-attachment: fixed;
+     }
      
-      width: 150px;
-      height: 150px;
-      margin: 60px auto;
-      padding: 5px;
-      border: 8px solid white;
-      text-transform: uppercase;
-      text-align: center;
-      word-spacing: 100px;
-      font-family: Arial;
-      color: white;
-    }
-    
-    .input {
-      text-align: center;
-      margin: auto;
-      width: 60%;
-    }
-    
-    input[type=text] {
-      margin-left: 30px;
-      padding: 8px 10px;
-      width: 300px;
-      font-size: 20px;
-      border: 1px solid #C2C2C2;
-        border-radius: 0px;
-    }
-    
-    input[type=text]:focus {
-      outline: none;
-      border: 1px solid #555;
-    }
-    
-    input[type=submit] {
-      margin-left: 15px;
-      margin-bottom: 8px;
-      padding: 8px;
-      font-size: 15px;
-      background: none;
-      border: 3px solid white;
-      color: white;
-    }
-    
-    .taskCounter {
-      width: 30%;
-      margin: 20px auto;
-      font-family: Arial;
-      font-size: 20px;
-      font-weight: bold;
-      color: white;
-      text-align: center;
-      text-transform: uppercase;
-      border-top: solid;
-      border-bottom: solid
+     .title {
       
-    }
-    
-    .tasks {
-      width: 75%;
-      margin-left: 20%;
-      margin-top: 35px;
-      font-family: Arial;
-      font-size: 20px;
-      color: slategray;
-    }
-    
-    table, tr, td {
-      border: none;
-      height: 28px;
-    }
-    
-    .checkboxes {
-      padding-right: 15px;
-    }
-    
-    .taskField {
-      padding-right: 30px;
-    }
-    
-    input[type=button] {
-      background: none;
-      border: 2px solid white;
-      color: white;
-    }
-    
-    input[type=button]:hover {
-      background: none;
-      border: 2px solid slategray;
-      color: slategray;
-    }
+       width: 150px;
+       height: 150px;
+       margin: 60px auto;
+       padding: 5px;
+       border: 8px solid white;
+       text-transform: uppercase;
+       text-align: center;
+       word-spacing: 100px;
+       font-family: Arial;
+       color: white;
+     }
+     
+     .input {
+       text-align: center;
+       margin: auto;
+       width: 60%;
+     }
+     
+     input[type=text] {
+       margin-left: 30px;
+       padding: 8px 10px;
+       width: 300px;
+       font-size: 20px;
+       border: 1px solid #C2C2C2;
+         border-radius: 0px;
+     }
+     
+     input[type=text]:focus {
+       outline: none;
+       border: 1px solid #555;
+     }
+     
+     input[type=submit] {
+       margin-left: 15px;
+       margin-bottom: 8px;
+       padding: 8px;
+       font-size: 15px;
+       background: none;
+       border: 3px solid white;
+       color: white;
+     }
+     
+     .taskCounter {
+       width: 30%;
+       margin: 20px auto;
+       font-family: Arial;
+       font-size: 20px;
+       font-weight: bold;
+       color: white;
+       text-align: center;
+       text-transform: uppercase;
+       border-top: solid;
+       border-bottom: solid
+       
+     }
+     
+     .tasks {
+       width: 75%;
+       margin-left: 20%;
+       margin-top: 35px;
+       font-family: Arial;
+       font-size: 20px;
+       color: slategray;
+     }
+     
+     table, tr, td {
+       border: none;
+       height: 28px;
+     }
+     
+     .checkboxes {
+       padding-right: 15px;
+     }
+ 
+     
+     .taskField {
+       padding-right: 30px;
+     }
+     
+     input[type=button] {
+       background: none;
+       border: 2px solid silver;
+       color: silver;
+     }
+     
+     input[type=button]:hover {
+       background: none;
+       border: 2px solid slategray;
+       color: slategray;
+     }
