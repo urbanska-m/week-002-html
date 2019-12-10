@@ -1,11 +1,11 @@
 body {
-  /* teal gradient     
+  /* grey-blue gradient */     
   background-color: #537895;
- background-image: linear-gradient(#537895 0%, #09202f 74%); */
+ background-image: linear-gradient(#537895 0%, #09202f 74%); 
    
-  /* dark turquoise gradient */
+  /* dark turquoise gradient 
    background-color: #04818f;
- background-image: linear-gradient(#04818f 0%, #000015 74%);
+ background-image: linear-gradient(#04818f 0%, #000015 74%); */
  
        background-repeat: no-repeat;
        background-attachment: fixed;
