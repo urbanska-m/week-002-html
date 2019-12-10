@@ -1,12 +1,6 @@
 body {
-  /* grey-blue gradient */     
-  background-color: #537895;
- background-image: linear-gradient(#537895 0%, #09202f 74%); 
-   
-  /* dark turquoise gradient 
-   background-color: #04818f;
- background-image: linear-gradient(#04818f 0%, #000015 74%); */
- 
+  background-image: url("backgrounds/foggy_hills.jpg");
+  background-size: cover;
        background-repeat: no-repeat;
        background-attachment: fixed;
      }
@@ -94,12 +88,12 @@ body {
      
      input[type=button] {
        background: none;
-       border: 2px solid silver;
-       color: silver;
+       border: 2px solid white;
+       color: white;
      }
      
      input[type=button]:hover {
        background: none;
-       border: 2px solid slategray;
-       color: slategray;
+       border: 2px solid silver;
+       color: silver;
      }
