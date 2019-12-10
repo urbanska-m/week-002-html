@@ -1,99 +1,45 @@
-body {
-  background-image: url("backgrounds/foggy_hills.jpg");
-  background-size: cover;
-       background-repeat: no-repeat;
-       background-attachment: fixed;
-     }
-     
-     .title {
-      
-       width: 150px;
-       height: 150px;
-       margin: 60px auto;
-       padding: 5px;
-       border: 8px solid white;
-       text-transform: uppercase;
-       text-align: center;
-       word-spacing: 100px;
-       font-family: Arial;
-       color: white;
-     }
-     
-     .input {
-       text-align: center;
-       margin: auto;
-       width: 60%;
-     }
-     
-     input[type=text] {
-       margin-left: 30px;
-       padding: 8px 10px;
-       width: 300px;
-       font-size: 20px;
-       border: 1px solid #C2C2C2;
-         border-radius: 0px;
-     }
-     
-     input[type=text]:focus {
-       outline: none;
-       border: 1px solid #555;
-     }
-     
-     input[type=submit] {
-       margin-left: 15px;
-       margin-bottom: 8px;
-       padding: 8px;
-       font-size: 15px;
-       background: none;
-       border: 3px solid white;
-       color: white;
-     }
-     
-     .taskCounter {
-       width: 30%;
-       margin: 20px auto;
-       font-family: Arial;
-       font-size: 20px;
-       font-weight: bold;
-       color: white;
-       text-align: center;
-       text-transform: uppercase;
-       border-top: solid;
-       border-bottom: solid
-       
-     }
-     
-     .tasks {
-       width: 75%;
-       margin-left: 20%;
-       margin-top: 35px;
-       font-family: Arial;
-       font-size: 20px;
-       color: slategray;
-     }
-     
-     table, tr, td {
-       border: none;
-       height: 28px;
-     }
-     
-     .checkboxes {
-       padding-right: 15px;
-     }
- 
-     
-     .taskField {
-       padding-right: 30px;
-     }
-     
-     input[type=button] {
-       background: none;
-       border: 2px solid white;
-       color: white;
-     }
-     
-     input[type=button]:hover {
-       background: none;
-       border: 2px solid silver;
-       color: silver;
-     }
+.sidebar {
+  background: lightblue;
+  float: left;
+  width: 30%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+ }
+
+.title {
+  background: lightpink;
+  height: max;
+  width: max;
+  z-index: -1;
+  text-transform: uppercase;
+  font-family: Arial;
+  font-size: 25px;
+  word-spacing: 500px;
+  text-align: center;
+  margin-top: 60%;
+}
+
+.taskCounter {
+  background: coral;
+  width: 45%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  text-transform: lowercase;
+  font-family: Arial;
+  font-size: 20px;
+  padding: 1%
+}
+
+.input {
+  background: lightgreen;
+  margin-top: 30px;
+}
+
+
+.tasks {
+  float: right;
+  margin-right: 35%;
+  margin-top: 10%;
+}
