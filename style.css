@@ -3,9 +3,11 @@
    background-size: cover;
  }
 
-.sidebar {
-  background: lightblue;
+ .sidebar {
+  background: rgb(3, 55, 83, 0.8);
   float: left;
+  top: 0;
+  left: 0;
   width: 30%;
   height: 100%;
   position: fixed;
@@ -45,7 +47,7 @@
 .input {
   text-align: center;
   margin-top: 30px;
-  width: max;
+  width: 100%;
 }
      
 input[type=text] {
