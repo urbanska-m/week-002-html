@@ -8,34 +8,56 @@
  }
 
 .title {
-  background: lightpink;
+  
+  border: 6px solid white;
   height: max;
-  width: max;
+  width: 80%;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  margin: 35% auto 0%;
   z-index: -1;
   text-transform: uppercase;
   font-family: Arial;
   font-size: 25px;
+  color: white;
   word-spacing: 500px;
   text-align: center;
-  margin-top: 60%;
 }
 
 .taskCounter {
-  background: coral;
-  width: 45%;
+  
+  border-top: 4px solid white;
+  border-bottom: 4px solid white;
+  width: 55%;
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 30px auto;
   text-transform: lowercase;
   font-family: Arial;
-  font-size: 20px;
-  padding: 1%
+  font-size: 22px;
+  color: white;
 }
 
 .input {
-  background: lightgreen;
+  text-align: center;
   margin-top: 30px;
+  width: max;
 }
+     
+input[type=text] {
+   width: max;
+   font-size: 20px;
+   border: 1px solid #C2C2C2;
+   border-radius: 0px;
+}
+
+input[type=submit] {
+       margin-top: 10px;
+       padding: 8px;
+       font-size: 15px;
+       background: none;
+       border: 3px solid white;
+       color: white;
+     }
 
 
 .tasks {
