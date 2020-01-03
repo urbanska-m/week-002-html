@@ -11,18 +11,19 @@
 </head>
 
 <body>
-  <div class="container">
+  <div class="container-fluid">
 
-    <div class="sidebar">
-      <div class="title">
+    <div class="sidebar col-12 col-sm-4">
+      <div class="title col-9">
         <h1>Get It Done</h1>
       </div>
 
-      <div class="taskCounter">
+      <div class="taskCounter col-6">
         <p>To do: 3 <br>
           Done: 1</p>
       </div>
 
+      <div class="row">
       <div class="input">
         <form>
           <input type="text" name="newTask" placeholder="New task..." minlength="1" maxlength="100">
@@ -30,39 +31,40 @@
         </form>
       </div>
     </div>
+    </div>
   </div>
 
 
 
-  <div class="container">
-    <div class="tasks">
+<div class="container">
+    <div class="tasks col-sm-6 col-xs-8">
       <ul>
         <li>
           <div class="row">
-            <div class="col-8">Task 1 </div>
-            <div class="col"><input type="button" value="Edit"></div>
-            <div class="col"><input type="button" value="Delete"></div>
+            <div>Task 1 </div>
+            <div><input type="button" value="Edit"></div>
+            <div><input type="button" value="Delete"></div>
           </div>
         </li>
         <li>
           <div class="row">
-            <div class="col-8">Task 2 </div>
-            <div class="col"><input type="button" value="Edit"></div>
-            <div class="col"><input type="button" value="Delete"></div>
+            <div>Task 2 </div>
+            <div><input type="button" value="Edit"></div>
+            <div><input type="button" value="Delete"></div>
           </div>
         </li>
         <li>
           <div class="row">
-            <div class="col-8">Task 3 </div>
-            <div class="col"><input type="button" value="Edit"></div>
-            <div class="col"><input type="button" value="Delete"></div>
+            <div>Task 3 </div>
+            <div><input type="button" value="Edit"></div>
+            <div><input type="button" value="Delete"></div>
           </div>
         </li>
         <li class="checked">
           <div class="row">
-            <div class="col-8">Task 4</div>
-            <div class="col"><input type="button" value="Edit"></div>
-            <div class="col"><input type="button" value="Delete"></div>
+            <div>Task 4</div>
+            <div><input type="button" value="Edit"></div>
+            <div><input type="button" value="Delete"></div>
           </div>
         </li>
       </ul>

@@ -3,16 +3,22 @@
    background-size: cover;
  }
 
+
  .sidebar {
   background: rgb(3, 55, 83, 0.8);
-  float: left;
   top: 0;
   left: 0;
-  width: 30%;
   height: 100%;
   position: fixed;
   z-index: -1;
  }
+
+@media only screen and (max-width: 600px) {
+  .sidebar {
+    height: 30%;
+  }
+}
+
 
 .title {
   
@@ -31,11 +37,12 @@
   text-align: center;
 }
 
+
 .taskCounter {
   
   border-top: 4px solid white;
   border-bottom: 4px solid white;
-  width: 55%;
+  padding-top: 5px;
   text-align: center;
   margin: 30px auto;
   text-transform: lowercase;
@@ -66,11 +73,12 @@ input[type=submit] {
        color: white;
      }
 
+     
 .tasks {
   margin-left: 40%;
   margin-top: 20%;
   margin-right: 10%
-}
+} 
 
 ul {
   margin: 0;
@@ -78,8 +86,6 @@ ul {
 }
 
 ul li {
-  cursor: pointer;
-  position: relative;
   padding: 12px 8px 12px 40px;
   background: #eee;
   font-size: 18px;
