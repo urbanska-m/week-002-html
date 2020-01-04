@@ -14,19 +14,18 @@
   z-index: -1;
  }
 
- /* This is fine do not touch - big screen */
+ /* Works - big screen */
 @media screen and (min-width: 576px) {
   .sidebar {
     background: rgb(3, 55, 83, 0.8);
     height: 100%;
     top: 0;
-  left: 0;
+    left: 0;
   }
 }
 
 /* Works - phone screen */
 .title {
-    background-color: pink;
     border: 6px solid white;
     height: max;
     width: 30%;
@@ -46,7 +45,7 @@
 /* WORKS - big screen */ 
 @media screen and (min-width: 576px) {
 .title {
-  background-color: black;
+  background-color: transparent;
   border: 6px solid white;
   height: max;
   width: 80%;
@@ -74,12 +73,10 @@
     font-family: Arial;
     font-size: 22px;
     color: white;
-    background-color: pink;
-    width: max;
   }
     } 
 
-/* This is fine do not touch this - big screen*/
+/* Works - big screen*/
   @media screen and (min-width: 576px) {
 .taskCounter {
   border-top: 4px solid white;
