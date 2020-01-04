@@ -14,6 +14,7 @@
   z-index: -1;
  }
 
+ /* This is fine do not touch - big screen */
 @media screen and (min-width: 576px) {
   .sidebar {
     background: rgb(3, 55, 83, 0.8);
@@ -23,6 +24,26 @@
   }
 }
 
+/* Works - phone screen */
+.title {
+    background-color: pink;
+    border: 6px solid white;
+    height: max;
+    width: 30%;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin: 5% auto;
+    z-index: -1;
+    text-transform: uppercase;
+    font-family: Arial;
+    font-size: 25%;
+    color: white;
+    word-spacing: 500px;
+    text-align: center;
+  }
+
+
+/* WORKS - big screen */ 
 @media screen and (min-width: 576px) {
 .title {
   background-color: black;
@@ -42,27 +63,23 @@
 }
 }
 
+/* DOES NOT WORK - PHONE */
 @media screen and (max-width: 576px) {
-  .title {
-    background-color: black;
-    border: 6px solid white;
-    height: max;
-    width: 30%;
-    padding-top: 1px;
-    padding-bottom: 1px;
-    margin: 5% auto;
-    z-index: -1;
-    text-transform: uppercase;
-    font-family: Arial;
-    font-size: 25%;
-    color: white;
-    word-spacing: 500px;
+  .taskCounter {
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
+    padding-top: 5px;
     text-align: center;
+    text-transform: lowercase;
+    font-family: Arial;
+    font-size: 22px;
+    color: white;
+    background-color: pink;
+    width: max;
   }
-  }
+    } 
 
-
-
+/* This is fine do not touch this - big screen*/
   @media screen and (min-width: 576px) {
 .taskCounter {
   border-top: 4px solid white;
@@ -77,19 +94,7 @@
 }
   }
 
-  @media screen and (max-width: 576px) {
-    .taskCounter {
-      border-top: 4px solid white;
-      border-bottom: 4px solid white;
-      padding-top: 5px;
-      text-align: center;
-      text-transform: lowercase;
-      font-family: Arial;
-      font-size: 22px;
-      color: white;
-      position: absolute;
-    }
-      } 
+
 
 
 
