@@ -36,8 +36,10 @@
     font-family: Arial;
     color: white;
     width: 30%;
-    padding-left: auto;
-    padding-right: auto;
+    margin: auto;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center;
   }
 
 
@@ -49,10 +51,17 @@
   font-family: Arial;
   color: white;
   width: 80%;
-  padding-left: auto;
-  padding-right: auto;
+  text-align: center;
 }
 }
+
+
+
+
+
+
+
+
 
 /* DOES NOT WORK - PHONE */
 @media screen and (max-width: 576px) {
