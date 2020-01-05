@@ -35,6 +35,9 @@
     text-transform: uppercase;
     font-family: Arial;
     color: white;
+    width: 30%;
+    padding-left: auto;
+    padding-right: auto;
   }
 
 
@@ -45,6 +48,9 @@
   text-transform: uppercase;
   font-family: Arial;
   color: white;
+  width: 80%;
+  padding-left: auto;
+  padding-right: auto;
 }
 }
 
@@ -83,12 +89,14 @@
 
 
 
-
+  @media screen and (max-width: 576px) {
 .input {
   text-align: center;
   margin-top: 30px;
   width: 100%;
+  display: none;
 }
+  }
      
 input[type=text] {
    width: max;
