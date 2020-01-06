@@ -49,24 +49,11 @@ vertical-align: middle;
 
 
 
-/* Task counters on small screen */ 
+/* Outstanding task counter on small screen */ 
 #outstandingSmall {
   margin-top: 25%;
   text-transform: lowercase;
   text-align: center;
-}
-
-.wordsSmall {
-font-family: Arial;
-font-size: 17px;
-color: white;
-}
-
-.numberSmall {
-  line-height: 105%;
-  font-family: Arial;
-  font-size: 80px;
-  color: white;
 }
 
 
@@ -76,16 +63,32 @@ color: white;
   }
 }
 
+/* Done task counter on small screen */
 #doneSmall {
   margin-top: 25%;
   text-transform: lowercase;
   text-align: center;
 }
 
+/* Hiding counter on big screen */
 @media (min-width: 768px) {
   #doneSmall {
     display: none;
   }
+}
+
+/* Styles for small screen counters */
+.wordsSmall {
+  font-family: Arial;
+  font-size: 17px;
+  color: white;
+}
+
+.numberSmall {
+  line-height: 105%;
+  font-family: Arial;
+  font-size: 80px;
+  color: white;
 }
 
 
