@@ -1,0 +1,90 @@
+body {
+    background-image: url(foggy-trees-flipped.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+#sidebar {
+  background: rgb(3, 55, 83, 0.8);
+
+}
+
+
+ /* big screen */
+ @media screen and (min-width: 768px) {
+  #sidebar {
+    background: rgb(3, 55, 83, 0.8);
+    min-height: calc(100vh);
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+}
+
+
+
+
+
+
+
+#title {
+width: 80%;
+height: 150px;
+border: 6px solid white;
+margin: 3% auto;
+padding-top: 12px;
+font-family: Arial;
+font-size: 25px;
+color: white;
+text-align: center;
+text-transform: uppercase;
+word-spacing: 100000px;
+vertical-align: middle;
+}
+
+/* big screen */
+@media screen and (min-width: 768px) {
+  #title {
+    width: 80%;
+    margin: 35% auto;
+    padding-top: 2px;
+    font-size: 30px;
+    vertical-align: middle;
+  }
+}
+
+
+
+/* Task counters on small screen */ 
+
+#outstandingSmall {
+  text-transform: lowercase;
+  text-align: center;
+  border: 1px solid red;
+}
+
+@media (min-width: 768px) {
+  #outstandingSmall {
+    display: none;
+  }
+}
+
+#doneSmall {
+  text-transform: lowercase;
+  text-align: center;
+  border: 1px solid red;
+}
+
+@media (min-width: 768px) {
+  #doneSmall {
+    display: none;
+  }
+}
+
+
+/* task counter on big screen */ 
+#taskCounter {
+  color: white;
+}
+
+
