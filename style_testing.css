@@ -51,10 +51,24 @@ vertical-align: middle;
 
 /* Task counters on small screen */ 
 #outstandingSmall {
+  margin-top: 25%;
   text-transform: lowercase;
   text-align: center;
-  border: 1px solid red;
 }
+
+.wordsSmall {
+font-family: Arial;
+font-size: 17px;
+color: white;
+}
+
+.numberSmall {
+  line-height: 105%;
+  font-family: Arial;
+  font-size: 80px;
+  color: white;
+}
+
 
 @media (min-width: 768px) {
   #outstandingSmall {
@@ -63,9 +77,9 @@ vertical-align: middle;
 }
 
 #doneSmall {
+  margin-top: 25%;
   text-transform: lowercase;
   text-align: center;
-  border: 1px solid red;
 }
 
 @media (min-width: 768px) {
