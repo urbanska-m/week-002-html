@@ -20,20 +20,15 @@ body {
 }
 
 
-.titleColumn {
-  max-height: 180px;
-}
-
 
 /* GET IT DONE */ 
 #title {
-width: 80%;
+width: 70%;
 height: 150px;
 border: 6px solid white;
 margin: 3% auto;
-padding-top: 12px;
 font-family: Arial;
-font-size: 25px;
+font-size: 30px;
 color: white;
 text-align: center;
 text-transform: uppercase;
@@ -44,10 +39,10 @@ vertical-align: middle;
 /* GET IT DONE big screen */
 @media screen and (min-width: 768px) {
   #title {
-    width: 80%;
-    margin: 35% auto 0% auto;
-    padding-top: 2px;
-    font-size: 30px;
+    width: 70%;
+    height: 200px;
+    margin: 20% auto 0% auto;
+    font-size: 40px;
     vertical-align: middle;
   }
 }
@@ -82,6 +77,8 @@ vertical-align: middle;
 
 /* task counter on big screen */ 
 #taskCounter {
+  width: 80%;
+  margin: 0% auto 0% auto;
   border-top: 4px solid white;
   border-bottom: 4px solid white;
   font-family: Arial;
