@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <title>Get It Done</title>
+</head>
+
+<body>
+  <!-- sidebar -->
+  <div class="container">
+
+    <div class="sidebar col-xs-12 col-sm-4">
+
+      <div class="title mx-auto">
+        <div class="row align-items-start">
+          <div class="col-xs-4 col-sm-9 align-self-center">
+            <h1 class="text-center">Get</h1>
+            <h1 class="text-center">It</h1>
+            <h1 class="text-center">Done</h1>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="taskCounter">
+        <div class="row align-items-center">
+          <div class="col-sm-8 align-self-center">
+            <p>To do: 3<p>
+                <p>Done: 1</p>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- task counter on small screen -->
+      <!-- <div class="row justify-content-between">
+        <div class="outstandingSmall col-xs-3">
+          <p>To do <br>
+            3</p>
+        </div>
+        <div class="doneSmall col-xs-3">
+          <p>Done <br>
+          1</p>
+        </div>
+      </div> -->
+
+
+      <div class="row">
+        <div class="input">
+          <form>
+            <input class="col-xs-3 col-sm-10 col-md-8" type="text" name="newTask" placeholder="New task..."
+              minlength="1" maxlength="100">
+            <input class="col-xs-1" type="submit" value="Add">
+          </form>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- list element -->
+
+    <div class="tasks col-sm-6 col-xs-8">
+      <ul>
+        <li>
+          <div class="row">
+            <div>Task 1 </div>
+            <div><input type="button" value="Edit"></div>
+            <div><input type="button" value="Delete"></div>
+          </div>
+        </li>
+        <li>
+          <div class="row">
+            <div>Task 2 </div>
+            <div><input type="button" value="Edit"></div>
+            <div><input type="button" value="Delete"></div>
+          </div>
+        </li>
+        <li>
+          <div class="row">
+            <div>Task 3 </div>
+            <div><input type="button" value="Edit"></div>
+            <div><input type="button" value="Delete"></div>
+          </div>
+        </li>
+        <li class="checked">
+          <div class="row">
+            <div>Task 4</div>
+            <div><input type="button" value="Edit"></div>
+            <div><input type="button" value="Delete"></div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</body>
+
+</html>
