@@ -106,3 +106,49 @@ vertical-align: middle;
 }
 
 
+.mainBody {
+  margin-left: 10%;
+  margin-top: 10%;
+}
+
+
+input[type=text] {
+   width: max;
+   font-size: 20px;
+}
+
+.btn {
+  margin-top: 2px;
+}
+
+
+
+
+.tasksToDo, .tasksDone {
+  font-size: 18px;
+  vertical-align: middle;
+}
+
+
+.tasksToDo {
+  margin-top: 40px;
+  padding: 12px 8px 12px 40px;
+  background: #eee;
+}
+
+.tasksToDo .row {
+  border-bottom: 1px solid lightgray;
+}
+
+.tasksToDo .row:hover {
+  background: #ddd;
+}
+
+
+.tasksDone {
+  margin-top: 20px;
+  padding: 12px 8px 12px 40px;
+  background: #888;
+  color: #fff;
+  text-decoration: line-through;
+}

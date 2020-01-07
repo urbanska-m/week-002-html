@@ -41,18 +41,48 @@
           </div>
         </div>
       </div>
+
       <!-- Main Body Area -->
-      <div class="col-9 col-md-6">
-        <form>
-          <div class="newTask">
-            <input type="text" class="form-control" id="inputField" placeholder="New task...">
-          </div>
-          <div class="col-2">
-            <div class="addButton">
-              <input class="btn btn-primary" type="submit" value="Add">
+
+      <div class="col-11 col-md-7">
+        <div class="mainBody" style="height: 400px;">
+
+
+          <div class="row">
+            <div class="inputField col-10">
+              <input type="text" class="form-control" placeholder="New task..." minlength="1" maxlength="100">
+            </div>
+            <div class="addButton col-1">
+              <input type="submit" class="btn btn-light" value="Add">
             </div>
           </div>
-        </form>
+
+
+          <div class="tasksToDo col-12">
+            <div class="row">
+              <input type="checkbox">
+              Task 1
+            </div>
+            <div class="row">
+              <input type="checkbox">
+              Task 2
+            </div>
+            <div class="row">
+              <input type="checkbox">
+              Task 3
+            </div>
+          </div>
+
+          <div class="tasksDone col-12">
+            <div class="row">
+              <input type="checkbox" checked>
+              Task 4
+            </div>
+          </div>
+
+
+
+        </div>
       </div>
     </div>
   </div>
